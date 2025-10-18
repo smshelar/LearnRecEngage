@@ -4,11 +4,6 @@
 
 - [🧩 Overview](#-overview)
 - [🚀 Features](#-features)
-  - [Personalized Recommendations](#p-ersonalized-recommendations)
-  - [Hybrid Model](#-hybrid-model)
-  - [Data Simulation](#-data-simulation)
-  - [Evaluation Metrics](#-evaluation-metrics)
-  - [Data Insights](#-data-insights)
 - [📂 Repository Structure](#-repository-structure)
 - [⚙️ Requirements](#-requirements)
 - [🧠 Setup and Usage](#-setup-and-usage)
@@ -22,10 +17,10 @@
     - [Content](#content)
     - [Engagements](#engagements)
   - [🔄 Simulation Logic](#-simulation-logic)
-  - [⚖️ Hybrid Blending Formula](#h-ybrid-blending-formula)
+  - [⚖️ Hybrid Blending Formula](#-hybrid-blending-formula)
   - [🔍 Key Insights](#-key-insights)
 - [🧭 Limitations and Future Work](#-limitations-and-future-work)
-
+- [📬 Contact](#-contact)
 
 ## 🧩 Overview
 This project implements a **hybrid recommendation system** designed to enhance learning experiences by suggesting personalized educational content.  
