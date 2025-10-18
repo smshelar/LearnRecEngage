@@ -5,7 +5,7 @@
 - [🧩 Overview](#-overview)
 - [🚀 Features](#-features)
 - [📂 Repository Structure](#-repository-structure)
-- [⚙️ Requirements](#-requirements)
+- [📝 Requirements](#-requirements)
 - [🧠 Setup and Usage](#-setup-and-usage)
   - [1. Generate Datasets](#1-generate-datasets)
   - [2. Run the Notebook](#2-run-the-notebook)
@@ -17,8 +17,8 @@
     - [Content](#content)
     - [Engagements](#engagements)
   - [🔄 Simulation Logic](#-simulation-logic)
-  - [⚖️ Hybrid Blending Formula](#-hybrid-blending-formula)
-  - [🔍 Key Insights](#-key-insights)
+  - [🔀 Hybrid Blending Formula](#-hybrid-blending-formula)
+  - [💡 Key Insights](#-key-insights)
 - [🧭 Limitations and Future Work](#-limitations-and-future-work)
 - [📬 Contact](#-contact)
 
@@ -64,7 +64,7 @@ The core implementation is done in a **Jupyter notebook**, supported by Python s
 ```
 ---
 
-## ⚙️ Requirements
+## 📝 Requirements
 
 - **Python:** 3.8+
 - **Libraries:**
@@ -175,7 +175,7 @@ The notebook includes helper functions to compute the following metrics:
 - Scores blend **implicit feedback** (e.g., duration) and **explicit feedback** (e.g., likes).  
 - Addresses **data sparsity** by focusing on key interaction signals, such as **recency** and **depth**.
 
-### ⚖️ Hybrid Blending Formula
+### 🔀 Hybrid Blending Formula
 
 The final recommendation score is computed as:
 
@@ -186,7 +186,7 @@ The final recommendation score is computed as:
 - **Higher α** → Favors collaborative learning (returning users)  
 - **Lower α** → Favors content similarity (new users)
 
-🔍 Key Insights
+### 💡 Key Insights
 
 - **Feature Importance**: Titles dominate TF-IDF similarity; domains/subtopics enhance diversity.
 - **User Behavior**: Casual users (1–5 interactions) dominate, but power users drive content trends.
